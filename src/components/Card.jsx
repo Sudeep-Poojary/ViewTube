@@ -53,11 +53,11 @@ const Card = () => {
       <Container>
         <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy6ss5pgYETcDiLOO4M8bvfmviy8h-cUgV6YQ5nja7ng&usqp=CAU&ec=48665701g" />
         <Details>
-          <ChannelImage src="https://hips.hearstapps.com/hmg-prod/images/florence-pugh-black-widow-poster-1581518804.jpg?crop=0.806xw:0.544xh;0.0995xw,0.106xh&resize=100:*" />
+          <ChannelImage src="https://yt3.googleusercontent.com/Ov2tJY8JdiBYxntxXOojPCjRHI6FjbjNozzsaQL4Z8GpyA5_LDqz1cD18zEA3bTYrkWZaKJyPg=s176-c-k-c0x00ffffff-no-rj" />
           <Texts>
             <Title>Test Video</Title>
-            <ChannelName>Jonny Dev</ChannelName>
-            <Info>700,000 views • 1 day ago</Info>
+            <ChannelName>IGN</ChannelName>
+            <Info>700,000 views ● 1 day ago</Info>
           </Texts>
         </Details>
       </Container>
