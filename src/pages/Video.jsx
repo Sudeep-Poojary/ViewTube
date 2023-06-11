@@ -52,6 +52,54 @@ const Hr = styled.hr`
   border: 0.5px solid ${({ theme }) => theme.soft};
 `;
 
+const Channel = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+
+const ChannelInfo = styled.div`
+  display: flex;
+  gap: 20px;
+`;
+
+const Image = styled.img`
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+`;
+
+const ChannelDetail = styled.div`
+  display: flex;
+  flex-direction: column;
+  color: ${({ theme }) => theme.text};
+`;
+
+const ChannelName = styled.span`
+  font-weight: 500;
+`;
+
+const ChannelCounter = styled.span`
+  margin-top: 5px;
+  margin-bottom: 20px;
+  color: ${({ theme }) => theme.textSoft};
+  font-size: 12px;
+`;
+
+const Description = styled.p`
+  font-size: 14px;
+`;
+
+const Subscribe = styled.button`
+  background-color: #cc1a00;
+  font-weight: 500;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  height: max-content;
+  padding: 10px 20px;
+  cursor: pointer;
+`;
+
 const Recommendation = styled.div`
   flex: 2;
 `;
@@ -101,7 +149,29 @@ const Video = () => {
         </Details>
 
         <Hr />
+
+        <Channel>
+          <ChannelInfo>
+            <Image src="https://yt3.googleusercontent.com/Ov2tJY8JdiBYxntxXOojPCjRHI6FjbjNozzsaQL4Z8GpyA5_LDqz1cD18zEA3bTYrkWZaKJyPg=s176-c-k-c0x00ffffff-no-rj" />
+
+            <ChannelDetail>
+              <ChannelName>IGN</ChannelName>
+              <ChannelCounter>400K subscribes</ChannelCounter>
+              <Description>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </Description>
+            </ChannelDetail>
+          </ChannelInfo>
+
+          <Subscribe>SUBSCRIBE</Subscribe>
+        </Channel>
       </Content>
+
       <Recommendation>Recommendation</Recommendation>
     </Container>
   );
