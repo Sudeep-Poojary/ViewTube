@@ -1,6 +1,6 @@
 # 📱 ViewTube 💻
 
-[![ViewTube Homepage](./src/img/Home Page 1.png "Home Page")]
+[![ViewTube Homepage](.viewtube/src/img/Home_Page_1.png "Home Page")]
 
 
 
