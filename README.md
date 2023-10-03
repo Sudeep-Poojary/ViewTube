@@ -1,4 +1,13 @@
-# 📱 ViewTube 💻
+<h1 align="center"> ViewTube </h1>
+
+## Technologies 🔧
+
+- ReactJS
+- Style-Components
+
+## Screenshots 📸
+
+<div align="center">
 
 ![ViewTube HomePage](./src/img/Home_Page_2.png "Home Page")
 
@@ -9,6 +18,8 @@
 ![ViewTube VideoPage](./src/img/Video_Page_2.png "Video Page")
 
 ![ViewTube SignInPage](./src/img/SignIn_Page.png "SignIn Page")
+
+</div>
 
 <hr>
 
