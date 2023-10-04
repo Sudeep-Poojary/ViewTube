@@ -3,7 +3,7 @@
 ## Technologies 🔧
 
 - ReactJS
-- Style-Components
+- Styled-Components
 
 ## Screenshots 📸
 
